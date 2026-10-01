@@ -7,25 +7,24 @@
 
 **Theme:**
 
-TODO: Name and briefly describe your game's theme.
+Escape from the Haunted Mansion is a supernatural adventure game set inside a haunted mansion.
 
 **Storyline:**
 
-TODO: In one short paragraph, explain the setting, the player's goal, the items
-the player must gather, and the threat created by the villain.
+The player is trapped inside a haunted mansion and must find a way to escape. The player's goal is to explore the mansion and collect six magical items: a Silver Key, Magic Book, Crystal, Golden Candle, Magic Shield, and Sacred Flower. These items will protect the player from Ghost King. The player must collect all six items before entering the Throne Room, or the Ghost King will defeat the player.
 
 ## Rooms
 
 Project One requires a minimum of eight rooms.
 
-1. TODO: Start room
-2. TODO: Room
-3. TODO: Room
-4. TODO: Room
-5. TODO: Room
-6. TODO: Room
-7. TODO: Room
-8. TODO: Villain room
+1. Entrance Hall - Start room
+2. Kitchen - Silver Key
+3. Library - Magic Book
+4. Bedroom - Crystal
+5. Dining Room - Golden Candle
+6. Basement - Magic Shield
+7. Garden - Sacred Flower
+8. Throne Room - Ghost King (Villain)
 
 Add more rooms if your design needs them.
 
@@ -34,19 +33,19 @@ Add more rooms if your design needs them.
 With the minimum eight-room design, Project One requires at least six items.
 Every room except the start room and villain room must contain one item.
 
-1. TODO: Item
-2. TODO: Item
-3. TODO: Item
-4. TODO: Item
-5. TODO: Item
-6. TODO: Item
+1. Silver Key
+2. Magic Book 
+3. Crystal
+4. Golden Candle
+5. Magic Shield
+6. Sacred Flower
 
 If you add rooms beyond the minimum, add an item for every additional room
 except the start room and villain room.
 
 ## Villain
 
-TODO: Identify and briefly describe the villain.
+The Ghost King is the villain of the game. He waits in the Throne Room and will defeat the player enters without collecting all six magical items.
 
 ## Storyboard and Map Check
 
