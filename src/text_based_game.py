@@ -16,7 +16,7 @@ def show_status(current_room, inventory, rooms):
     print("--------------------")
     print("You are in the", current_room)
     print("Inventory:", inventory)
-    if "item" in room[current_room]:
+    if "item" in rooms[current_room]:
         print("You see a", rooms[current_room]["item])
     print("--------------------")
 def main():
@@ -51,7 +51,7 @@ def main():
 
     # TODO: Call the instruction function at the appropriate time.
 
-       While True: 
+       while True: 
            show_status(current_room, inventory, rooms)
            command = input("Enter your move: ").strip()
            if command.lower() == "exit":
@@ -64,10 +64,10 @@ def main():
                else:
                    print("You cannot go that way!")
            elif command.lower().startswith("get "):
-               item = command[4:]
+               item = command[4:].strip()
                if rooms[current_room].get("item", "").lower() == item.lower()
                    inventory.append(rooms[current_room]["item"]
-                   print("You collected", rooms[current_room]["item"]
+                   print("You collected", rooms[current_room]["item"])
                    del rooms[current_room]["item"]
                else:
                    print("That item is not in this room.")
